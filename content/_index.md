@@ -29,6 +29,20 @@ Testing isn’t just about finding bugs; it’s about building **confidence in y
 
 Check out the [**blog**](posts/) for more!
 
+<!-- ## 🏷️ **Explore by Tags**
+
+{{ range .Site.Taxonomies.tags }}
+
+- [{{ .Name }}]({{ .Page.RelPermalink }})
+  {{ end }}
+
+## 📂 **Explore by Categories**
+
+{{ range .Site.Taxonomies.categories }}
+
+- [{{ .Name }}]({{ .Page.RelPermalink }})
+  {{ end }} -->
+
 ## 🧑‍💻 **About Me**
 
 👋 I’m **Nil Gàllego**, a Senior Automation Engineer at **Red Hat**. I specialize in designing and implementing automation systems that **ensure software quality**. Learn more [here](about/).

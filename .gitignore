@@ -1,0 +1,45 @@
+# Hugo generated files
+/public/
+/resources/
+
+# Logs and temporary files
+*.log
+*.DS_Store
+Thumbs.db
+
+# Node modules (if using Node.js for assets or scripts)
+node_modules/
+/package-lock.json
+/yarn.lock
+
+# Go Modules (if using Hugo modules)
+/hugo_stats.json
+/go.sum
+/go.mod
+
+# OS-specific files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.bak
+*.tmp
+
+# Files created by Hugo server
+hugo_server.log
+
+# Backup files
+*.old
+*.orig
+*.rej
+
+# Build and deployment
+/.netlify/
+.env
+.DS_Store
+
+# User-specific Hugo config overrides
+/config.toml.bak
+/config.yaml.bak
+/config_override.*
