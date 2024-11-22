@@ -8,7 +8,10 @@ params:
   description: "A blog about test automation, focusing on Playwright and general good practices."
   author: "Your Name"
   keywords:
-    ["test automation", "Playwright", "quality assurance", "good practices"]
+    - "test automation"
+    - "Playwright"
+    - "quality assurance"
+    - "good practices"
   logo: "/images/logo.png"
   favicon: "/images/favicon.ico"
   social:
@@ -35,8 +38,6 @@ params:
         url: "/privacy-policy/"
       - name: "Terms of Service"
         url: "/terms-of-service/"
-  analytics:
-    googleAnalytics: "UA-XXXXXXXXX-X" # Replace with your Google Analytics ID
 
 permalinks:
   posts: "/:year/:month/:slug/"
